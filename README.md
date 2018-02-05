@@ -16,6 +16,8 @@ Expose a Graphql API with koa 2 server
 
 ### To Run Tests
 
+- npm install -g mocha
+
 - npm run test
 
 - npm run test:watch
