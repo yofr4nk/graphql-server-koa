@@ -1,0 +1,27 @@
+{
+  "name": "graphql-server-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "mocha  ./test/unit --recursive",
+    "test:watch": "mocha  ./test/unit --recursive --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^0.11.4",
+    "graphql-server-koa": "^1.1.2",
+    "graphql-tools": "^1.2.3",
+    "koa": "^2.0.1",
+    "koa-bodyparser": "^4.1.0",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.0.1",
+    "lodash": "^4.17.4",
+    "mocha": "^5.0.0",
+    "unit.js": "^2.0.0"
+  }
+}
